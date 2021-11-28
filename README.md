@@ -54,18 +54,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. 
 
-<ol>
-  <li>clone this repo and put it in the htdocs under your xampp folder</li>
-  <li>create a new database and name it notes-app</li>
-  <li>create 3 tables with these properties</li>
-  <li>under the users table create a new user named Visitor with an id number of 8 with this sql command</li>
-  ```
+ 1. clone this repo and put it in the htdocs under your xampp folder
+ 2. create a new database and name it notes-app
+ 3. create 3 tables with these properties
+ 4. under the users table create a new user named Visitor with an id number of 8 with this sql command
+```
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 'test@gmail.com', '$2y$10$1KqJrmpixqLY36gIyllJfuQFWreJbVw7ZYiTtXcuXHQ1WX7qILZcS')
 ```
-  <li>run the apache and mysql in your xampp control panel</li>
-  <li></li>
-  <li>run the apache and mysql in your xampp control panel</li>
-</ol>
+ 5. run the apache and mysql in your xampp control panel
+ 
+ 6. run the apache and mysql in your xampp control panel
+
 
 ### APIs should be able to:
 - Get the tasks and notes of the user logged in
