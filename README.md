@@ -55,6 +55,9 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 't
  6. create a todos table with these properties: 
  [![Capture.jpg](https://i.postimg.cc/ZRmwDBmF/Capture.jpg)](https://postimg.cc/p90Qmdpp)
  7. run the apache and mysql in your xampp control panel
+ 
+ ## Results
+ [![ezgif-3-e61eb84aa8e5.gif](https://i.postimg.cc/9Qy4W1s2/ezgif-3-e61eb84aa8e5.gif)](https://postimg.cc/cv41h7sk)
 
 
 ## My process
