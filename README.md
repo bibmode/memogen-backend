@@ -56,8 +56,9 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
  1. clone this repo and put it in the htdocs under your xampp folder
  2. create a new database and name it notes-app
- 3. create 3 tables with these properties
- 4. under the users table create a new user named Visitor with an id number of 8 with this sql command
+ 3. create a users table with these properties: 
+ [![Capture.jpg](https://i.postimg.cc/8zsj8t4t/Capture.jpg)](https://postimg.cc/5XdxL5ZC)
+ 5. under the users table create a new user named Visitor with an id number of 8 with this sql command:
 ```
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 'test@gmail.com', '$2y$10$1KqJrmpixqLY36gIyllJfuQFWreJbVw7ZYiTtXcuXHQ1WX7qILZcS')
 ```
