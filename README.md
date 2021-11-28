@@ -8,9 +8,10 @@ This is the backend source files with the APIs needed for my first CRUD notes an
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [How to use](#how-to-use)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -20,15 +21,16 @@ This is the backend source files with the APIs needed for my first CRUD notes an
 
 ## Overview
 
-### The challenge
-
-Perform the following activities using any Web-Based programming language and SQL database software:
+### The challenge:
 - Perform the adding of user/s to SQL database with limited privileges (own choice) via web-based interface.
 - Develop a web-based login page for the authentication of users before the system's access.
 - Create a webpage that will display the user's assigned privileges every after successful entry to the system.
 
-APIs should be able to:
-- 
+### APIs should be able to:
+- Get the tasks and notes of the user logged in
+- Post new task and memo to the database under the user's id
+- Update tasks' and memos' details by their ids
+- Get tasks and notes by inputted keywords
 
 ### Screenshot
 
@@ -40,27 +42,41 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
+**Note: I will be deploying this entire app in the future. I have a limited time to deploy it on heroku which I have not used before since the deadline of this school project is later this day @ 12:00 am 2021-11-28. To use it for now, follow the instructions in the How-to-use section.**
+<!--
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-->
+
+## How to use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. 
+
+### File system:
+<ol>
+  <li>clone this repo and put it in the htdocs under your xampp folder</li>
+  <li>create a new database and name it notes-app</li>
+  <li>create 3 tables with these properties</li>
+  <li>run the apache and mysql in your xampp control panel</li>
+</ol>
+
+### APIs should be able to:
+- Get the tasks and notes of the user logged in
+- Post new task and memo to the database under the user's id
+- Update tasks' and memos' details by their ids
+- Get tasks and notes by inputted keywords
+
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [PHP](https://www.php.net/) - For connecting the backend to the frontend
+- [MySQL](https://www.mysql.com/) - Database service
+- [Apache](https://httpd.apache.org/) - For HTTP server
+- [JWT](https://jwt.io/) - For token authentication
 
 ### What I learned
 
