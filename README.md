@@ -59,7 +59,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
   <li>create a new database and name it notes-app</li>
   <li>create 3 tables with these properties</li>
   <li>under the users table create a new user named Visitor with an id number of 8 with this sql command</li>
-  ```mysql
+  ```php
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 'test@gmail.com', '$2y$10$1KqJrmpixqLY36gIyllJfuQFWreJbVw7ZYiTtXcuXHQ1WX7qILZcS')
 ```
   <li>run the apache and mysql in your xampp control panel</li>
