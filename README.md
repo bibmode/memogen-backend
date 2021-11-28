@@ -4,7 +4,7 @@ This is the backend source files with the APIs needed for my first CRUD notes an
 
 <div align="center">
   <h3>
-    <a href="https://youtu.be/C4gemNbYcis">
+    <a href="https://www.youtube.com/watch?v=C4gemNbYcis&ab_channel=GENEVIEVENAVALES">
       Video Demo
     </a>
   </h3>
