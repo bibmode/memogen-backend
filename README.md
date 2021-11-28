@@ -1,6 +1,6 @@
-# Frontend Mentor - Rock, Paper, Scissors solution
+# Memogen Notes and Todo-list Application - Backend
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is the backend source files with the APIs needed for my first CRUD notes and todo list manager application.
 
 ## Table of contents
 
@@ -22,12 +22,13 @@ This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](h
 
 ### The challenge
 
-Users should be able to:
+Perform the following activities using any Web-Based programming language and SQL database software:
+- Perform the adding of user/s to SQL database with limited privileges (own choice) via web-based interface.
+- Develop a web-based login page for the authentication of users before the system's access.
+- Create a webpage that will display the user's assigned privileges every after successful entry to the system.
 
-- View the optimal layout for the game depending on their device's screen size
-- Play Rock, Paper, Scissors against the computer
-- Maintain the state of the score after refreshing the browser _(optional)_
-- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
+APIs should be able to:
+- 
 
 ### Screenshot
 
