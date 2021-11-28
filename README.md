@@ -62,6 +62,9 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ```html
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 'test@gmail.com', '$2y$10$1KqJrmpixqLY36gIyllJfuQFWreJbVw7ZYiTtXcuXHQ1WX7qILZcS')
 ```
+```js
+INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES (8, 'Visitor', 'test@gmail.com', '$2y$10$1KqJrmpixqLY36gIyllJfuQFWreJbVw7ZYiTtXcuXHQ1WX7qILZcS')
+```
   <li>run the apache and mysql in your xampp control panel</li>
   <li></li>
   <li>run the apache and mysql in your xampp control panel</li>
